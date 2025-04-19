@@ -90,7 +90,7 @@ export default function Home() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="relative z-20 flex items-center space-x-4">
-            <NavbarButton variant="secondary">Sign In</NavbarButton>
+            <NavbarButton variant="secondary" className="border border-[#5D87FF] text-[#5D87FF] bg-transparent hover:bg-[#5D87FF10]">Sign In</NavbarButton>
             <NavbarButton className="bg-[#5D87FF] text-white hover:bg-[#4D77EF]">Get Started</NavbarButton>
           </div>
         </NavBody>
@@ -112,7 +112,7 @@ export default function Home() {
               </a>
             ))}
             <div className="flex w-full flex-col gap-2">
-              <NavbarButton variant="secondary" className="w-full">
+              <NavbarButton variant="secondary" className="w-full border border-[#5D87FF] text-[#5D87FF] bg-transparent hover:bg-[#5D87FF10]">
                 Sign In
               </NavbarButton>
               <NavbarButton className="w-full bg-[#5D87FF] text-white hover:bg-[#4D77EF]">
