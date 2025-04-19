@@ -135,16 +135,18 @@ export default function Home() {
           </p>
         </div>
         
-        <MacbookScroll 
-          src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          showGradient={true}
-          title={
-            <span>
-              Built with <span className="text-[#5D87FF]">modern technologies</span><br />
-              for a <span className="text-[#2A3546]">seamless</span> experience
-            </span>
-          }
-        />
+        <div className="w-[100%] mx-auto">
+          <MacbookScroll 
+            src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            showGradient={true}
+            title={
+              <span>
+                Built with <span className="text-[#5D87FF]">modern technologies</span><br />
+                for a <span className="text-[#2A3546]">seamless</span> experience
+              </span>
+            }
+          />
+        </div>
         
         {/* Spacer div with responsive margin */}
         <div className="mt-10 md:mt-40 lg:mt-240"></div>
@@ -152,13 +154,13 @@ export default function Home() {
         <Timeline data={timelineData} />
         
         {/* Wobble Cards Section - Grid Layout */}
-        <div className="w-[89%] mx-auto px-5 py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="w-[88%] mx-auto px-4 py-6 grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* First Wobble Card - AI Powered Features */}
-          <WobbleCard containerClassName="bg-pink-700 min-h-[380px] rounded-2xl">
-            <div className="text-white p-6 md:p-8 flex flex-col h-full">
+          <WobbleCard containerClassName="bg-pink-700 min-h-[320px] rounded-xl">
+            <div className="text-white p-5 md:p-6 flex flex-col h-full">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-2">AI-powered<br />learning experience</h2>
-                <p className="text-base md:text-lg mt-3">
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">AI-powered<br />learning experience</h2>
+                <p className="text-sm md:text-base mt-2">
                   Our platform leverages cutting-edge AI to personalize learning paths for each student, adapting in real-time to their strengths and challenges.
                 </p>
               </div>
@@ -166,21 +168,21 @@ export default function Home() {
           </WobbleCard>
           
           {/* Second Wobble Card - Live Features */}
-          <WobbleCard containerClassName="bg-indigo-700 min-h-[380px] rounded-2xl">
-            <div className="text-white p-6 md:p-8 flex flex-col justify-center h-full">
-              <h2 className="text-3xl md:text-4xl font-bold mb-3">Live<br />interactive<br />classrooms</h2>
-              <p className="text-base md:text-lg mt-2">
+          <WobbleCard containerClassName="bg-indigo-700 min-h-[320px] rounded-xl">
+            <div className="text-white p-5 md:p-6 flex flex-col justify-center h-full">
+              <h2 className="text-2xl md:text-3xl font-bold mb-2">Live<br />interactive<br />classrooms</h2>
+              <p className="text-sm md:text-base mt-2">
                 Connect with expert educators and peers worldwide through our seamless live streaming and collaborative tools.
               </p>
             </div>
           </WobbleCard>
           
           {/* Third Wobble Card - Easy to Use UI */}
-          <WobbleCard containerClassName="bg-blue-700 min-h-[380px] md:col-span-2 rounded-2xl">
-            <div className="text-white p-6 md:p-8 flex flex-col h-full">
+          <WobbleCard containerClassName="bg-blue-700 min-h-[320px] md:col-span-2 rounded-xl">
+            <div className="text-white p-5 md:p-6 flex flex-col h-full">
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-3">Intuitive interface designed for learning, not figuring out software</h2>
-                <p className="text-base md:text-lg mt-3">
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">Intuitive interface designed for learning, not figuring out software</h2>
+                <p className="text-sm md:text-base mt-2">
                   Our simple yet powerful UI lets students and educators focus on what matters most—the educational journey, not the technology behind it.
                 </p>
               </div>
