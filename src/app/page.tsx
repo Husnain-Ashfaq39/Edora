@@ -152,13 +152,13 @@ export default function Home() {
         <Timeline data={timelineData} />
         
         {/* Wobble Cards Section - Grid Layout */}
-        <div className="w-[88%] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="w-[89%] mx-auto px-5 py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
           {/* First Wobble Card - AI Powered Features */}
-          <WobbleCard containerClassName="bg-pink-700 min-h-[440px] rounded-3xl">
-            <div className="text-white p-8 md:p-12 flex flex-col h-full">
+          <WobbleCard containerClassName="bg-pink-700 min-h-[380px] rounded-2xl">
+            <div className="text-white p-6 md:p-8 flex flex-col h-full">
               <div>
-                <h2 className="text-4xl md:text-5xl font-bold mb-2">AI-powered<br />learning experience</h2>
-                <p className="text-lg md:text-xl mt-4">
+                <h2 className="text-3xl md:text-4xl font-bold mb-2">AI-powered<br />learning experience</h2>
+                <p className="text-base md:text-lg mt-3">
                   Our platform leverages cutting-edge AI to personalize learning paths for each student, adapting in real-time to their strengths and challenges.
                 </p>
               </div>
@@ -166,21 +166,21 @@ export default function Home() {
           </WobbleCard>
           
           {/* Second Wobble Card - Live Features */}
-          <WobbleCard containerClassName="bg-indigo-700 min-h-[440px] rounded-3xl">
-            <div className="text-white p-8 md:p-12 flex flex-col justify-center h-full">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">Live<br />interactive<br />classrooms</h2>
-              <p className="text-lg md:text-xl mt-2">
+          <WobbleCard containerClassName="bg-indigo-700 min-h-[380px] rounded-2xl">
+            <div className="text-white p-6 md:p-8 flex flex-col justify-center h-full">
+              <h2 className="text-3xl md:text-4xl font-bold mb-3">Live<br />interactive<br />classrooms</h2>
+              <p className="text-base md:text-lg mt-2">
                 Connect with expert educators and peers worldwide through our seamless live streaming and collaborative tools.
               </p>
             </div>
           </WobbleCard>
           
           {/* Third Wobble Card - Easy to Use UI */}
-          <WobbleCard containerClassName="bg-blue-700 min-h-[440px] md:col-span-2 rounded-3xl">
-            <div className="text-white p-8 md:p-12 flex flex-col h-full">
+          <WobbleCard containerClassName="bg-blue-700 min-h-[380px] md:col-span-2 rounded-2xl">
+            <div className="text-white p-6 md:p-8 flex flex-col h-full">
               <div>
-                <h2 className="text-4xl md:text-5xl font-bold mb-4">Intuitive interface designed for learning, not figuring out software</h2>
-                <p className="text-lg md:text-xl mt-4">
+                <h2 className="text-3xl md:text-4xl font-bold mb-3">Intuitive interface designed for learning, not figuring out software</h2>
+                <p className="text-base md:text-lg mt-3">
                   Our simple yet powerful UI lets students and educators focus on what matters most—the educational journey, not the technology behind it.
                 </p>
               </div>
