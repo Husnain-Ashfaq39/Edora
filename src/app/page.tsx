@@ -145,7 +145,8 @@ export default function Home() {
           }
         />
         
-       
+        {/* Spacer div with responsive margin */}
+        <div className="mt-10 md:mt-40 lg:mt-240"></div>
         
         <Timeline data={timelineData} />
       </main>
