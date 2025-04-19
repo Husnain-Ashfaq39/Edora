@@ -30,7 +30,7 @@ export default function Home() {
       title: "2020",
       content: (
         <div className="bg-white dark:bg-neutral-900 p-6 rounded-lg shadow-md">
-          <h4 className="text-xl font-bold mb-2 text-black dark:text-white">Project Started</h4>
+          <h4 className="text-xl font-bold mb-2 text-[#2A3546] dark:text-white">Project <span className="text-[#5D87FF]">Started</span></h4>
           <p className="text-neutral-700 dark:text-neutral-300">
             We began our journey with a simple idea: to create a platform that would revolutionize how people interact with technology.
           </p>
@@ -41,7 +41,7 @@ export default function Home() {
       title: "2021",
       content: (
         <div className="bg-white dark:bg-neutral-900 p-6 rounded-lg shadow-md">
-          <h4 className="text-xl font-bold mb-2 text-black dark:text-white">First Major Release</h4>
+          <h4 className="text-xl font-bold mb-2 text-[#2A3546] dark:text-white">First Major <span className="text-[#5D87FF]">Release</span></h4>
           <p className="text-neutral-700 dark:text-neutral-300">
             After months of development and testing, we launched our first version to the public, receiving overwhelmingly positive feedback.
           </p>
@@ -52,7 +52,7 @@ export default function Home() {
       title: "2022",
       content: (
         <div className="bg-white dark:bg-neutral-900 p-6 rounded-lg shadow-md">
-          <h4 className="text-xl font-bold mb-2 text-black dark:text-white">Expanding Features</h4>
+          <h4 className="text-xl font-bold mb-2 text-[#2A3546] dark:text-white">Expanding <span className="text-[#5D87FF]">Features</span></h4>
           <p className="text-neutral-700 dark:text-neutral-300">
             We added a suite of new features based on user feedback, making our platform more powerful and versatile than ever before.
           </p>
@@ -63,7 +63,7 @@ export default function Home() {
       title: "2023",
       content: (
         <div className="bg-white dark:bg-neutral-900 p-6 rounded-lg shadow-md">
-          <h4 className="text-xl font-bold mb-2 text-black dark:text-white">Going Global</h4>
+          <h4 className="text-xl font-bold mb-2 text-[#2A3546] dark:text-white">Going <span className="text-[#5D87FF]">Global</span></h4>
           <p className="text-neutral-700 dark:text-neutral-300">
             Our platform expanded to international markets, bringing our innovative solutions to users around the world.
           </p>
@@ -74,7 +74,7 @@ export default function Home() {
       title: "2024",
       content: (
         <div className="bg-white dark:bg-neutral-900 p-6 rounded-lg shadow-md">
-          <h4 className="text-xl font-bold mb-2 text-black dark:text-white">Next Generation</h4>
+          <h4 className="text-xl font-bold mb-2 text-[#2A3546] dark:text-white">Next <span className="text-[#5D87FF]">Generation</span></h4>
           <p className="text-neutral-700 dark:text-neutral-300">
             Today, we&apos;re working on the next generation of our platform, with cutting-edge technologies and innovative features.
           </p>
@@ -91,7 +91,7 @@ export default function Home() {
           <NavItems items={navItems} />
           <div className="relative z-20 flex items-center space-x-4">
             <NavbarButton variant="secondary">Sign In</NavbarButton>
-            <NavbarButton>Get Started</NavbarButton>
+            <NavbarButton className="bg-[#5D87FF] text-white hover:bg-[#4D77EF]">Get Started</NavbarButton>
           </div>
         </NavBody>
 
@@ -115,7 +115,7 @@ export default function Home() {
               <NavbarButton variant="secondary" className="w-full">
                 Sign In
               </NavbarButton>
-              <NavbarButton className="w-full">
+              <NavbarButton className="w-full bg-[#5D87FF] text-white hover:bg-[#4D77EF]">
                 Get Started
               </NavbarButton>
             </div>
@@ -125,8 +125,8 @@ export default function Home() {
 
       <main className="relative z-10">
         <div className="container mx-auto px-4 py-10 text-center">
-          <h1 className="text-4xl font-bold md:text-6xl tracking-tight mb-4 text-neutral-800 dark:text-white">
-            Your Amazing Product
+          <h1 className="text-4xl font-bold md:text-6xl tracking-tight mb-4 text-[#2A3546] dark:text-white">
+            Your <span className="text-[#5D87FF]">Amazing</span> Product
           </h1>
           <p className="mx-auto max-w-xl text-lg text-neutral-600 dark:text-neutral-300 mb-16">
             This is your product&apos;s stunning description. Engage your visitors with compelling content
@@ -139,8 +139,8 @@ export default function Home() {
           showGradient={true}
           title={
             <span>
-              Built with <span className="text-blue-500">modern technologies</span><br />
-              for a seamless experience
+              Built with <span className="text-[#5D87FF]">modern technologies</span><br />
+              for a <span className="text-[#2A3546]">seamless</span> experience
             </span>
           }
         />
