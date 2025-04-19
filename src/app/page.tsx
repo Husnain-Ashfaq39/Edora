@@ -152,7 +152,7 @@ export default function Home() {
         <Timeline data={timelineData} />
         
         {/* Wobble Cards Section - Grid Layout */}
-        <div className="w-full px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="w-[88%] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* First Wobble Card - Pink with Dashboard Image */}
           <WobbleCard containerClassName="bg-pink-700 min-h-[440px] rounded-3xl">
             <div className="text-white p-8 md:p-12 flex flex-col h-full">
