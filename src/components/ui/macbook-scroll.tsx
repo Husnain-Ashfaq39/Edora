@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { MotionValue, motion, useScroll, useTransform } from "motion/react";
+import { MotionValue, motion, useScroll, useTransform } from "framer-motion";
 import { cn } from "@/lib/utils";
 import {
   IconBrightnessDown,
@@ -79,7 +79,7 @@ export const MacbookScroll = ({
       >
         {title || (
           <span>
-            This Macbook is built with Tailwindcss. <br /> No kidding.
+          
           </span>
         )}
       </motion.h2>
@@ -111,7 +111,7 @@ export const MacbookScroll = ({
         <Trackpad />
         <div className="absolute inset-x-0 bottom-0 mx-auto h-2 w-20 rounded-tl-3xl rounded-tr-3xl bg-gradient-to-t from-[#272729] to-[#050505]" />
         {showGradient && (
-          <div className="absolute inset-x-0 bottom-0 z-50 h-40 w-full bg-gradient-to-t from-white via-white to-transparent dark:from-black dark:via-black"></div>
+          <div className="absolute inset-0 h-40 w-full bg-gradient-to-t from-white via-white to-transparent dark:from-black dark:via-black"></div>
         )}
         {badge && <div className="absolute bottom-4 left-4">{badge}</div>}
       </div>
@@ -246,7 +246,7 @@ export const Keypad = () => {
           <span className="mt-1 inline-block">F12</span>
         </KBtn>
         <KBtn>
-          <div className="h-4 w-4 rounded-full bg-gradient-to-b from-neutral-900 from-20% via-black via-50% to-neutral-900 to-95% p-px">
+          <div className="h-4 w-4 rounded-full bg-gradient-to-b from-[#0074BA] from-20% via-[#006DAF] via-50% to-[#0074BA] to-95% p-px">
             <div className="h-full w-full rounded-full bg-black" />
           </div>
         </KBtn>
@@ -641,7 +641,7 @@ const AceternityLogo = () => {
       viewBox="0 0 66 65"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="h-3 w-3 text-white"
+      className="h-3 w-3 text-[#0074BA]"
     >
       <path
         d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
