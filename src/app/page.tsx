@@ -153,52 +153,36 @@ export default function Home() {
         
         {/* Wobble Cards Section - Grid Layout */}
         <div className="w-[88%] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* First Wobble Card - Pink with Dashboard Image */}
+          {/* First Wobble Card - AI Powered Features */}
           <WobbleCard containerClassName="bg-pink-700 min-h-[440px] rounded-3xl">
             <div className="text-white p-8 md:p-12 flex flex-col h-full">
-              <div className="mb-auto">
-                <h2 className="text-4xl md:text-5xl font-bold mb-2">Gippity AI powers<br />the entire universe</h2>
+              <div>
+                <h2 className="text-4xl md:text-5xl font-bold mb-2">AI-powered<br />learning experience</h2>
                 <p className="text-lg md:text-xl mt-4">
-                  With over 100,000 mothly active bot users, Gippity AI is the most popular AI platform for developers.
+                  Our platform leverages cutting-edge AI to personalize learning paths for each student, adapting in real-time to their strengths and challenges.
                 </p>
-              </div>
-              <div className="mt-8 relative h-64">
-                <img 
-                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop"
-                  alt="Project Management UI" 
-                  className="absolute right-0 bottom-0 max-w-full max-h-full object-contain rounded-lg"
-                />
               </div>
             </div>
           </WobbleCard>
           
-          {/* Second Wobble Card - Purple */}
+          {/* Second Wobble Card - Live Features */}
           <WobbleCard containerClassName="bg-indigo-700 min-h-[440px] rounded-3xl">
             <div className="text-white p-8 md:p-12 flex flex-col justify-center h-full">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">No shirt,<br />no shoes,<br />no weapons.</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">Live<br />interactive<br />classrooms</h2>
               <p className="text-lg md:text-xl mt-2">
-                If someone yells &quot;stop!&quot;, goes limp, or taps out, the fight is over.
+                Connect with expert educators and peers worldwide through our seamless live streaming and collaborative tools.
               </p>
             </div>
           </WobbleCard>
           
-          {/* Third Wobble Card - Blue - Full Width */}
+          {/* Third Wobble Card - Easy to Use UI */}
           <WobbleCard containerClassName="bg-blue-700 min-h-[440px] md:col-span-2 rounded-3xl">
             <div className="text-white p-8 md:p-12 flex flex-col h-full">
-              <div className="md:max-w-2xl mb-auto">
-                <h2 className="text-4xl md:text-5xl font-bold mb-4">Signup for blazing-fast cutting-edge state of the art Gippity AI wrapper today!</h2>
+              <div>
+                <h2 className="text-4xl md:text-5xl font-bold mb-4">Intuitive interface designed for learning, not figuring out software</h2>
                 <p className="text-lg md:text-xl mt-4">
-                  With over 100,000 mothly active bot users, Gippity AI is the most popular AI platform for developers.
+                  Our simple yet powerful UI lets students and educators focus on what matters most—the educational journey, not the technology behind it.
                 </p>
-              </div>
-              <div className="mt-8 flex justify-end">
-                <div className="relative h-64 w-full md:w-2/3">
-                  <img 
-                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop"
-                    alt="Project Management UI" 
-                    className="absolute right-0 bottom-0 max-w-full max-h-full object-contain rounded-lg"
-                  />
-                </div>
               </div>
             </div>
           </WobbleCard>
